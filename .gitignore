@@ -1,0 +1,54 @@
+# Should be created by the Studio if needed.
+/build.properties
+
+# If you don't use database connectors you can safely ignore the content of database_connectors_properties folder
+#/database_connectors_properties
+
+# h2 database information are only used when testing application in Bonita Studio.
+/h2_database
+
+# ACME test organization is provided by Bonita Studio.
+# You probably don't want to include it except if you did some customization.
+#/organizations/ACME.organization
+
+# Ignore the Groovy script sources provided with Bonita Studio.
+/src-providedGroovy
+
+# Web component user individual preferences (e.g. bookmarked,...).
+/web_widgets/.metadata
+/web_page/.metadata
+
+# Output of web component build
+/web_widgets/*/*.js
+/web_page/*/js
+
+# Web widgets provided by Bonita in the UI Designer.
+/web_widgets/pb*/
+
+# Gradle (can be used for example to build and package REST API extensions).
+
+# Ignore Gradle generated files.
+.gradle
+**/build/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored).
+!gradle-wrapper.jar
+
+# IntelliJ (can be used for example to create a REST API extension).
+
+# Ignore IntelliJ output folder.
+**/out/
+
+# IntelliJ user workspace configuration.
+**/.idea/**/workspace.xml
+
+# IntelliJ Gradle integration configuration.
+**/.idea/**/gradle.xml
+
+diagrams/Diagrama Solicitud de Vacaciones-1.0.proc
+diagrams/Diagrama Solicitud de Vacaciones-2.0.proc
+diagrams/Diagrama Solicitud de Vacaciones-3.0.proc
+diagrams/Diagrama Solicitud de Vacaciones-4.0.proc
+diagrams/Diagrama Solicitud de Vacaciones-5.0.proc
+web_page/validarSolicitud/assets/css/style.css
+web_page/validarSolicitud/validarSolicitud.json
